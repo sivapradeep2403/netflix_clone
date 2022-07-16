@@ -1,0 +1,43 @@
+.row_Posters{
+    object-fit:"contain";
+    width:"100%";
+    max-height:"130px";
+    transition:transform 450ms;
+    overflow-x:scroll
+
+}
+
+.row_Posters{
+    display:flex;
+    margin-right:13px;
+    overflow-x:scroll;
+    overflow-y:hidden
+}
+
+.row_Posters:img{
+    height:"200px"
+}
+
+.row_Posters::-webkit-scrollbar{
+    display:none;
+}
+.row_Poster:hover{
+     transform:scale(1.08);
+     transition:transform 450ms;
+     padding:"20px"
+     
+}
+
+.row1{
+     transform:scale(1.08);
+     transition:transform 450ms;
+     padding:"20px";
+     height:"300px"
+}
+
+.row1:hover{
+     transform:scale(1.08);
+     transition:transform 450ms;
+     padding:"20px"
+     
+}

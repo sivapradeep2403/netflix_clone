@@ -1,0 +1,7 @@
+.banner_Btns:hover{
+    transform:scale(1.09);
+    background-color:"black";
+    height:"50px";
+    color:'white'
+
+}
